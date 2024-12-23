@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dubai">
+    <title>Dubai</title>
+    <link rel="stylesheet" href="./otput.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body class="w-[440px] bg-[#F1F1F1]">
+    <!-- Start Navbar -->
+        <nav class="container mx-auto flex items-center justify-around mt-[85px] h-[145px] bg-white" style="box-shadow: 0px 1px 2px 0px #0000001A;">
+            <div class="flex flex-col gap-1 cursor-pointer">
+                <img src="./images/Vector.svg" class="w-[31px] h-[2.42px]" alt="Menu">
+                <img src="./images/Vector.svg" class="w-[31px] h-[2.42px]" alt="Menu">
+                <p>القائمة</p>
+            </div>
+            <a href="./index.html">
+                <img src="./images/logo.svg" class="w-[101px] h-20 cursor-pointer" alt="Logo">
+            </a>
+            <div class="flex items-center gap-2 cursor-pointer">
+                <img src="./images/lang.svg" alt="Language">
+                <p class="text-[#000000] font-normal text-[13px] leading-[19.11px]">العربية</p>
+            </div>
+        </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Slider -->
+        <div class="swiper mySwiper mt-[14px]">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/Rectangle267.webp" class="w-[341px] h-[186px]" alt="Image">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Rectangle268.webp" class="w-[341px] h-[186px]" alt="Image">
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/Rectangle270.webp" class="w-[341px] h-[186px]" alt="Image">
+                    <p class="absolute top-[-45px] left-[75px] w-full h-full flex items-center justify-center text-white font-bold text-2xl leading-9">
+                        بيع رقم سيارتك <br> بكل سهولة !!
+                    </p>
+                </div>
+                
+                
+            </div>
+        </div>
+    <!-- End Slider -->
+
+    <!-- Start Third Card -->
+        <section class="container mx-auto flex mt-[22px] px-[20px]">
+            <img src="./images/Frame.webp" alt="">
+            <div class="w-[370px] h-[163px] rounded-tl-[10px] rounded-bl-[10px]" style="border-width: 1px; border-style: solid; border-image-source: linear-gradient(269.42deg, #000000 0.47%, #FFFFFF 99.53%); border-image-slice: 1;">
+                <div class="flex flex-wrap items-center justify-center gap-3 py-[9px]">
+                    <select name="الإمارة" id="الإمارة" class="w-[109px] h-10 text-base font-medium rounded-[10px] border-[0.5px] border-[#8E8E93] focus:ring-0 outline-none">
+                        <option value="الإمارة" class="">الإمارة</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+    
+                    <select name="فئة" id="فئة" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] focus:ring-0 outline-none">
+                        <option value="فئة">فئة</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+    
+                    <select name="كود" id="كود" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] focus:ring-0 outline-none">
+                        <option value="كود">كود</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+    
+                    <select name="طول الرقم" id="طول الرقم" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] focus:ring-0 outline-none">
+                        <option value="طول الرقم">طول الرقم</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+    
+                    <input type="text" placeholder="أعلي سعر" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] placeholder:text-black outline-none focus:ring-0">
+    
+                    <input type="text" placeholder="أقل سعر" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] placeholder:text-black outline-none focus:ring-0">
+    
+                    <input type="text" placeholder="يبدأ ب" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] placeholder:text-black outline-none focus:ring-0">
+    
+                    <input type="text" placeholder=" ينتهي ب" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] placeholder:text-black outline-none focus:ring-0">
+                    
+                    <input type="text" placeholder="يتضمن" class="w-[109px] h-10 text-base font-medium px-1 rounded-[10px] border-[0.5px] border-[#8E8E93] placeholder:text-black outline-none focus:ring-0">
+                
+                </div>
+            </div>
+        </section>
+    <!-- End Third Card -->
+
+    <!-- Start Cards -->
+        <section class="container mx-auto flex flex-wrap gap-[10px] items-center justify-center mt-5">
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="w-[195px] h-[133px] flex flex-col justify-around items-center bg-white rounded-[10px]">
+                <img src="./images/Group.webp" alt="Image">
+                <div class="w-[195px] h-[21px] flex items-center justify-center bg-[#575757]">
+                    <p class="text-white font-bold text-[15px] leading-[22.5px]">AED 20.000</p>
+                </div>
+                <div class="flex justify-around gap-3">
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#3563E9]">
+                        <p class="text-white text-[12px] font-semibold leading-[19.2px]">اتصال</p>
+                        <img src="./images/call-calling.svg" alt="Call">
+                    </a>
+                    <a href="#" class="flex items-center justify-center gap-3 w-[86px] h-7 rounded-[4px] bg-[#60D6691F]">
+                        <p class="text-[#60D669] text-[12px] font-semibold leading-[19.2px]">واتس اب</p>
+                        <img src="./images/logos_whatsapp-icon.svg" alt="Whatsapp">
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    <!-- End Cards -->
+
+    <!-- Start Pagination -->
+        <section class="container mx-auto flex justify-center mt-[22px]">
+            <div class="w-[314px] h-11 flex items-center justify-around bg-white border-[1px] border-[#D1D5DB] rounded-lg">
+                <img src="./images/chevron-right.svg" class="cursor-pointer" alt="Arrow">
+                <p class="bg-[#FFFBF3] border-2 border-black w-11 h-11 rounded-md flex justify-center items-center font-medium text-2xl cursor-pointer">1</p>
+                <p class="text-[#6B7280] font-medium text-[20px] cursor-pointer">2</p>
+                <p class="text-[#6B7280] font-medium text-[20px] cursor-pointer">3</p>
+                <p class="text-[#6B7280] font-medium text-[20px] cursor-pointer">4</p>
+                <p class="text-[#6B7280] font-medium text-[20px] cursor-pointer">5</p>
+                <img src="./images/chevron-left.svg" class="cursor-pointer" alt="Arrow">
+            </div>
+        </section>
+    <!-- End Pagination -->
+
+    <!-- Start Footer -->
+        <footer class="bg-black mt-[21px]">
+            <div class="container mx-auto flex justify-around h-[254px]">
+                <div class="flex flex-col gap-[11px] items-end mt-5">
+                    <img src="./images/footerLogo.svg" alt="Logo">
+                    <p class="text-white font-normal text-[10px]">Dubai, UAE</p>
+                    <a class="text-white font-normal text-[10px]" href="#">+971 54 546 4665</a>
+                    <a class="text-white font-normal text-[10px]" href="info@z-900.com">info@z-900.com</a>
+                    <div class="flex items-center gap-3">
+                        <a href="#"><img src="./images/uil_facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="./images/uil_instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="./images/ic_baseline-tiktok.svg" alt="tiktok"></a>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <p class="text-white text-sm font-semibold leading-[21px] mb-5">روابط سريعة</p>
+                    <ul class="flex flex-col gap-1 list-disc">
+                        <li class="text-white text-sm font-semibold leading-[21px]">الرئيسية</li>
+                        <li class="text-white text-sm font-semibold leading-[21px]">ارقام السيارات</li>
+                        <li class="text-white text-sm font-semibold leading-[21px]">بيع رقمك</li>
+                        <li class="text-white text-sm font-semibold leading-[21px]">من نحن</li>
+                        <li class="text-white text-sm font-semibold leading-[21px]">تواصل معنا</li>
+                        <li class="text-white text-sm font-semibold leading-[21px]">شروط الاستخدام</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border border-[#D9D9D9] w-[403.16px] mx-auto">
+            <div class="flex items-center justify-between px-5">
+                    <div class="flex items-center gap-1">
+                        <p class="text-white font-normal text-[8px] leading-3">تم التطوير <br>  بواسطة</p>
+                        <img src="./images/Layer_1.svg" alt="Logo">
+                    </div>
+                    <p class="text-white font-semibold text-[10px] leading-[15px]">جميع الحقوق محفوظة لـ z-900.com </p>
+            </div>
+        </footer>
+    <!-- End Footer -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: "auto",
+            initialSlide: 2,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 150,
+                modifier: 2.5,
+                slideShadows: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1, 
+                },
+                641: {
+                    slidesPerView:1.3,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
